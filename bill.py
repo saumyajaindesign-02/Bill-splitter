@@ -14,6 +14,6 @@ tip = calculate_tip(bill, percent)
 total = bill + tip
 each = split(total, people)
 
-print(f"Tip: {tip:,.2f}")
-print(f"Total: {total:,.2f}")
-print(f"Each pays: {each:,.2f}")
+print(f"Tip: ₹{tip:,.2f}")
+print(f"Total: ₹{total:,.2f}")
+print(f"Each pays: ₹{each:,.2f}") 
